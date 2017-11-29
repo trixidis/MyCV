@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Développeur}\\\textbf{mobile Android},
+        \textbf{~~~~~POO~~~~~},
+        \textbf{~~Gradle~~},
+        \textbf{~~~GIT~~~}\\\textbf{~~~SVN~~~},
+        \textbf{~~~~~~IOT~~~~~~},
+        \textbf{RXJava}\\\textbf{~~RXAndroid~~},
+        \textbf{Retrofit}
+    }
+}
+
+% Programming skill bars
+\programming{{PHP $\textbullet$ Angular JS   / 2}, {C++ $\textbullet$ QT Quick  / 3.5}, {Java $\textbullet$ C\# $\textbullet$ Objective C / 5}}
+
+% Projects text
+\projects{
+\textbf \\ 
+\textbf{Projets Michelin} - Projets confidentiels IOT - Applications en Android et en c\# qui communiquent directement avec des object connectés via NFC ou USB\\ \\
+\textbf{CKPay} - Application permettant de créditer des bornes de paiement connectées dans des stations de lavage auto partenaires \\ \\
+ \textbf{SMXL} - Application de guide des tailles de vêtements sur Android et iOS \\ \\
+ \textbf{Voisine48} - Application de covoiturage en Lozère sur la plateforme Android
+
+       
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Adrien Boissier} % Your name
+\cvjobtitle{ Développeur mobile Android } % Job
+% title/career
+
+\cvlinkedin{}
+\cvgithub{trixidis}
+\cvnumberphone{06 85 58 44 74} % Phone number
+%\cvsite{} % Personal website
+\cvmail{boissier38@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 ETUDES
+%----------------------------------------------------------------------------------------
+\section{Etudes}
+
+\begin{twenty} % Environment for a list with descriptions
+\\
+	\twentyitem
+    	{2015 - 2016}
+        {}
+        {Licence professionnelle option SIL \\ \textnormal{(Plateformes mobiles)}}
+        {\href{https://iutweb.u-clermont1.fr/}{IUT d'Aubière}}
+        {}
+        {}
+        
+        \\
+	\twentyitem
+    	{2013 - 2015}
+		{}
+        {BTS SIO option SLAM \\ \textnormal{(Développement)}}
+        {\href{https://www.lyceepeytavin.com/}{Lycée Emile Peytavin, Mende}}
+        {}
+        {}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Expérience}
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{Mai 2017 -}
+		{Aujourd'hui}
+        {Développeur mobile Android R\&D IOT}
+        {\href{http://www.michelin.fr/}{Michelin (prestation Modis)}}
+        {}
+        {\begin{itemize}
+        \item Au sein d'une équipe de 5 développeurs embarqués, je développe les outils nécessaires à la maintenance et au débuggage des objets connectés, grâce à des applications qui communiquent avec le matériel via NFC.
+        \item Travail en scrum par sprints de 3 semaines.
+        \end{itemize}}
+        \\ \\ \\
+	\twentyitem
+    	{Sep 2016 -}
+		{Mai 2017}
+        {Développeur mobile Android \& iOS IOT}
+        {\href{http://www.cksquare.fr/}{CK Square}}
+        {}
+        {
+        {\begin{itemize}
+        \item En collaboration avec l'équipe qui développe les systèmes embarqués sur des bornes de paiement dans les stations de lavage auto, j'ai développé une application mobile sous Android et iOS permettant grâce à un compte client de créditer directement une borne depuis son téléphone en scannant le QRCode de cette dernière.
+    \end{itemize}}
+        }
+    \\ \\ \\
+    \twentyitem
+   		{Fev 2016 -}
+		{Mai 2016}
+        {Développeur mobile Android \& iOS}
+        {\href{https://www.smxlapp.com/}{Darbot Mobile}}
+        {}
+        {
+        {\begin{itemize}
+        \item Durant ce stage, j'ai dû, avec un autre stagiaire modifier l'application SMXL sur les deux plateformes principales Android et iOS (modifications d'IHM, définition de nouvelles fonctionnalités et implémentaiton de ces dernières).
+    \end{itemize}}
+        }
+     \\ \\ \\
+     \twentyitem
+   		{Jan 2016 -}
+		{Fev 2016 }
+        {Développeur mobile Android}
+        {\href{http://www.voisine48.fr/}{Voisine48}}
+        {}
+        {
+        \begin{itemize}
+        \item Développement de l'application mobile reprenant les mêmes fonctionnalités que le site web de l'association.
+    \end{itemize}
+    	}
+    	
+    	\\ \\ \\
+    
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 INTERETS PERSONNELS
+%----------------------------------------------------------------------------------------
+\section{Intérêts Personnels}
+
+\begin{twenty}
+	\twentyitem
+	{}{}{Natation, course à pied, moto de route et d'enduro }{}{}{}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 INTERETS PERSONNELS
+%----------------------------------------------------------------------------------------
+\section{Langues}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{}{}{Anglais}{Bon niveau}{}{}
+	\twentyitem
+    	{}{}{Allemand}{Niveau scolaire}{}{}
+\end{twenty}
+
+
+\end{document} 
