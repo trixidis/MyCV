@@ -6,4 +6,4 @@ This is my CV under LateX technology
 
 thanks to Harshavardhan Gadgil for his work
 
-![Screenshot](screen.png)
+![Screenshot](cvScreen.png)
